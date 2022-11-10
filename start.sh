@@ -1,0 +1,1 @@
+deno ./src/index.ts --allow-env
