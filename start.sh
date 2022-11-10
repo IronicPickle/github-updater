@@ -1,1 +1,1 @@
-deno ./src/index.ts --allow-env
+deno run --allow-read --allow-net --allow-run src/index.ts
