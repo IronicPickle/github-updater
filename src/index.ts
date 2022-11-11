@@ -101,7 +101,6 @@ const startPoll = async () => {
 };
 
 const start = async () => {
-  localStorage.clear();
   const loginData = await login();
   if (!loginData) return;
 
